@@ -1,0 +1,7 @@
+<template>
+    <template if:true={recordId}>
+        <template if:true={sObjectName}>
+            <lightning-formatted-url value={referenceUrl} label={sObjectName.Name} target="_blank"></lightning-formatted-url>
+        </template>
+    </template>
+</template>
